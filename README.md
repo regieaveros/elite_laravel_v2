@@ -12,3 +12,10 @@
 - php artisan migrate --path=/database/migrations/2023_10_24_171210_create_usertypes_table.php
 - php artisan migrate --path=/database/migrations/2023_10_24_185908_create_crews_table.php
 - last to migrate "php artisan migrate"
+
+## Seeder
+
+- php artisan db:seed --class=UserTypeSeeder
+- php artisan db:seed --class=UserSeeder
+- php artisan db:seed --class=RankSeeder
+- php artisan db:seed --class=DocumentSeeder
